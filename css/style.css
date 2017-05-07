@@ -1,0 +1,61 @@
+.wrapper {
+    text-align: center;
+}
+#wordBox {
+    background-color: rgba(0, 188, 212, 0.06);
+    width: 30%;
+    height: 35%;
+    border-bottom: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    text-align: center;
+    -webkit-padding-before: 7%;
+    font-size: xx-large;
+    font-weight: bolder;
+    color: rgb(60, 197, 192);
+}
+.wordText {
+    padding-top: 2%;
+}
+.wordButt {
+    padding-top: 1%;
+}
+input#words_answer {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: solid 2px rgb(240, 251, 253);
+    width: 30%;
+}
+input#words_submit {
+    background-color: aliceblue;
+    border-bottom: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    width: 30%;
+    height: 8%;
+}
+.wordCom {
+    padding-top: 3%;
+    padding-bottom: 2%;
+    font-style: italic;
+}
+.wordInfo {
+    padding-bottom: 2%;
+}
+.wordPoin {
+    padding-bottom: 1%;
+    font-style: italic;
+}
+.wordSoal {
+    font-style: italic;
+    padding-bottom: 1%;
+}
+font#poin {
+    color: #F44336;
+}
+font#soal {
+    color: #2196F3;
+}
