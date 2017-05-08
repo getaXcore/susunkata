@@ -102,7 +102,6 @@
 					if(parseInt(indek) >= total_indek ){
 						document.getElementById("words_submit").disabled = true;
 						$("#wordBox").html("Terima kasih sudah mencoba :)");	
-						$("#wordBox").css("font-size:","4px");
 					}
 
 					words = word.split('').sort(function(){return 0.5-Math.random()}).join('');
