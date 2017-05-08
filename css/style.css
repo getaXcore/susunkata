@@ -10,7 +10,7 @@
     border-left: none;
     border-right: none;
     text-align: center;
-    -webkit-padding-before: 7%;
+    -webkit-padding-before: 5%;
     font-size: xx-large;
     font-weight: bolder;
     color: rgb(60, 197, 192);
@@ -38,7 +38,7 @@ input#words_submit {
     height: 8%;
 }
 .wordCom {
-    padding-top: 3%;
+    padding-top: 1%;
     padding-bottom: 2%;
     font-style: italic;
 }
