@@ -39,11 +39,11 @@
 			    },
 			});
 
-			$("#words_answer").bind("change keyup",function(e){
+			/*$("#words_answer").bind("change keyup",function(e){
 				if (e.keyCode == 13){
 					$("#words_submit").click();
 				}
-			});
+			});*/
 			
 			$("#words_submit").click(function(){
 
@@ -60,6 +60,9 @@
 					$("#notif").css("color","green");
 					$("#notif").html("Jawaban anda benar. Poin bertambah 1 :)");
 
+					//reset input text
+					$("#words_answer").val('');
+
 					var new_poin = parseInt(old_poin)+1;
 
 					localStorage.removeItem("poin");
@@ -69,6 +72,9 @@
 					$("#notif").show();
 					$("#notif").css("color","red");
 					$("#notif").html("Jawaban anda salah. Poin dikurangi 1 :(");
+
+					//reset input text
+					$("#words_answer").val('');
 
 					var new_poin = parseInt(old_poin)-1;
 
@@ -101,6 +107,7 @@
 
 					if(parseInt(indek) >= total_indek ){
 						document.getElementById("words_submit").disabled = true;
+						document.getElementById("words_answer").disabled = true;
 						$("#wordBox").html("Terima kasih sudah mencoba :)");	
 					}
 
